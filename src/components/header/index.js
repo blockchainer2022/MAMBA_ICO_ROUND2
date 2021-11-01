@@ -27,11 +27,20 @@ const Index = ({ account, loadWeb3, loadWalleConnect }) => {
             </li>
             <li className="p-3.5 text-sm">
               <a
+                href="https://bscscan.com/tx/0x925a6757c5c9e7c33ce8b89539cd70db0171bf7169a740b52331e1b6f6d13af8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ICO Round 1
+              </a>
+            </li>
+            <li className="p-3.5 text-sm">
+              <a
                 href="https://bscscan.com/address/0x0cd8bb93f52c16b667e0e1c155699f7961dab790#code"
                 target="_blank"
                 rel="noreferrer"
               >
-                ICO Contract
+                ICO Round 2
               </a>
             </li>
             <li className="p-3.5 text-sm">
@@ -96,11 +105,20 @@ const Index = ({ account, loadWeb3, loadWalleConnect }) => {
             </li>
             <li className="p-2 text-sm" onClick={() => setOpen(!open)}>
               <a
+                href="https://bscscan.com/tx/0x925a6757c5c9e7c33ce8b89539cd70db0171bf7169a740b52331e1b6f6d13af8"
+                target="_blank"
+                rel="noreferrer"
+              >
+                ICO Round 1
+              </a>
+            </li>
+            <li className="p-2 text-sm" onClick={() => setOpen(!open)}>
+              <a
                 href="https://bscscan.com/address/0x0cd8bb93f52c16b667e0e1c155699f7961dab790#code"
                 target="_blank"
                 rel="noreferrer"
               >
-                ICO Contract
+                ICO Round 2
               </a>
             </li>
             <li className="p-2 text-sm" onClick={() => setOpen(!open)}>
