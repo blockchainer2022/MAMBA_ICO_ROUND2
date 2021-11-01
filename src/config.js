@@ -223,7 +223,6 @@ export const contractAbi = [
     type: "function",
   },
 ];
-
 // export const contractAddress = "0x0cCE692e4dF6B413084d5CE6d6140FEfCB3BC325";
 // export const contractAddress = "0x2Ac14cb88CD16B3274c54D4814EFd7b871BcA1BC";
 export const contractAddress = "0x0CD8bb93f52C16b667e0e1c155699f7961dab790";
