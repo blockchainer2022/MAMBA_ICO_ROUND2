@@ -15,7 +15,7 @@ const Timer = ({ days, hours, minutes, seconds, startTime, endTime }) => {
           ? "ICO Starts in"
           : end
           ? "ICO has ended"
-          : ": ICO Round 2 ends in"}
+          : "ICO Round 2 ends in"}
       </h6>
       <div className="mx-auto mt-3 text-base text-center text-black dark:text-gray-50 font-bold font-sans">
         <span>
